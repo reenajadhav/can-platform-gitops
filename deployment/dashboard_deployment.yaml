@@ -4,7 +4,7 @@ kind: Deployment
 metadata:
   name: can-dashboard
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: can-dashboard
