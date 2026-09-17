@@ -1,0 +1,14 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: vehicle-simulator-metrics
+  labels:
+    app: vehicle-data-simulator
+spec:
+  selector:
+    app: vehicle-data-simulator
+  ports:
+    - name: metrics
+      port: 8000
+      targetPort: 8000

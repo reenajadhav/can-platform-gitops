@@ -3,7 +3,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 
 metadata:
-  name: can-dashboard
+  name: can-vehicle-simulator
 
   namespace: argocd
 
@@ -15,7 +15,7 @@ spec:
 
     targetRevision: HEAD
 
-    path: dashboard
+    path: simulator
 
   destination:
     server: https://kubernetes.default.svc
@@ -26,4 +26,3 @@ spec:
     automated:
       prune: true
       selfHeal: true
-
