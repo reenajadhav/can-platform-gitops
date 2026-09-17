@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: vehicle-data-simulator
-          image: 'vehicle_data_simulator:v1'
+          image: 'vehicle_data_simulator:6'
           imagePullPolicy: Never
           ports:
             - name: metrics
