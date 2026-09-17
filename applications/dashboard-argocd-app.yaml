@@ -15,7 +15,7 @@ spec:
 
     targetRevision: HEAD
 
-    path: dashboard
+    path: deployment
 
   destination:
     server: https://kubernetes.default.svc
