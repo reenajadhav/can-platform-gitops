@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: can-parser
-          image: 'can-parser:6'
+          image: 'can-parser:12'
           imagePullPolicy: Never
           volumeMounts:
             - name: can-data
